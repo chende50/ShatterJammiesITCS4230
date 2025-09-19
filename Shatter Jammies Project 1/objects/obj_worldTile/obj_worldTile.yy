@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_worldTile",
   "eventList":[],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_worldTile",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -20,11 +20,8 @@
   "physicsObject":false,
   "physicsRestitution":0.1,
   "physicsSensor":false,
-  "physicsShape":0,
-  "physicsShapePoints":[
-    {"x":32.0,"y":32.0,},
-    {"x":64.0,"y":32.0,},
-  ],
+  "physicsShape":1,
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",

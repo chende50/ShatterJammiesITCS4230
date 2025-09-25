@@ -6,8 +6,8 @@
   "name":"obj_spike",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
   },
   "parentObjectId":{
     "name":"obj_solid",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite5",
-    "path":"sprites/Sprite5/Sprite5.yy",
+    "name":"spikePlaceholder",
+    "path":"sprites/spikePlaceholder/spikePlaceholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

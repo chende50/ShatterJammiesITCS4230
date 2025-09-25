@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_platform",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
   },
   "parentObjectId":{
     "name":"obj_solid",
@@ -38,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"placeholderPlatform",
-    "path":"sprites/placeholderPlatform/placeholderPlatform.yy",
+    "name":"platformPlaceholder",
+    "path":"sprites/platformPlaceholder/platformPlaceholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -8,8 +8,8 @@
   "name":"obj_shard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite4",
-    "path":"sprites/Sprite4/Sprite4.yy",
+    "name":"crystalPlaceholder",
+    "path":"sprites/crystalPlaceholder/crystalPlaceholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

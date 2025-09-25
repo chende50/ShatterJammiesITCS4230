@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spike",
+  "%Name":"obj_solid",
   "eventList":[],
   "managed":true,
-  "name":"obj_spike",
+  "name":"obj_solid",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_solid",
-    "path":"objects/obj_solid/obj_solid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite5",
-    "path":"sprites/Sprite5/Sprite5.yy",
+    "name":"Sprite3",
+    "path":"sprites/Sprite3/Sprite3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

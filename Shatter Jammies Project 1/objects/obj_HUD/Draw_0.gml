@@ -1,0 +1,1 @@
+draw_text(16, 64, "Score: " + string(score))

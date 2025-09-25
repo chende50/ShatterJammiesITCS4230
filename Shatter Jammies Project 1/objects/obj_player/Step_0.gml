@@ -1,15 +1,29 @@
 //Movement logic
-if speed > 15 speed = 15;
-if speed < -15 speed = -15;
+vspeed += 1.5
+if hspeed > 15 hspeed = 15;
+if hspeed < -15 hspeed = -15;
 
 friction = .8
-gravity = .9
 
+hspeed = 0
 if keyboard_check(ord("A"))
 {
-	motion_add(1, -2)	
+	hspeed -= 7
 }
 if keyboard_check(ord("D"))
 {
-	motion_add(1, 2)	
+	hspeed += 7	
 }
+
+hspeed *= friction
+
+if place_meeting(x, y+1, obj_solid)
+{
+	vspeed = 0
+	if keyboard_check(vk_space)
+	{
+		vspeed -= 30
+	}
+}
+
+move_and_collide(.1, .1, obj_solid)

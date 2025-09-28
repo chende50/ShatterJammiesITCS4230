@@ -27,5 +27,15 @@ if (instance_place(x, y+1, obj_solid))
 } 
 else 
 {
-	gravity = .25	
+	gravity = .5	
 }
+
+if i_frames > 0
+{
+	i_frames--
+}
+
+//if health <= 0
+//{
+//	room_restart()
+//}

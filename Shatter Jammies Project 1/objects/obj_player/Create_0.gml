@@ -1,2 +1,2 @@
 health = 3
-grav = 3
+gravity_direction = 270

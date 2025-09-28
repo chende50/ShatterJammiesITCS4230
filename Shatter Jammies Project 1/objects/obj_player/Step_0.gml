@@ -1,29 +1,31 @@
-//Movement logic
-vspeed += 1.5
-if hspeed > 15 hspeed = 15;
-if hspeed < -15 hspeed = -15;
-
-friction = .8
-
-hspeed = 0
-if keyboard_check(ord("A"))
+if (keyboard_check(vk_left) and !instance_place(x-move_speed, y, obj_solid)) 
 {
-	hspeed -= 7
-}
-if keyboard_check(ord("D"))
-{
-	hspeed += 7	
+	x += -move_speed
+	image_xscale = -1
 }
 
-hspeed *= friction
-
-if place_meeting(x, y+1, obj_solid)
+if (keyboard_check(vk_right)) 
 {
-	vspeed = 0
-	if keyboard_check(vk_space)
+	x += move_speed
+	image_xscale = 1
+}
+
+if (keyboard_check(vk_up))
+{
+	show_debug_message("jumping...")
+	if (instance_place(x, y+1, obj_solid))
 	{
-		vspeed -= 30
+		show_debug_message("jumping...")
+		vspeed = jump_height
 	}
 }
 
-move_and_collide(.1, .1, obj_solid)
+if (instance_place(x, y+1, obj_solid)) 
+{
+	show_debug_message("object_found")
+	gravity = 0
+} 
+else 
+{
+	gravity = .25	
+}

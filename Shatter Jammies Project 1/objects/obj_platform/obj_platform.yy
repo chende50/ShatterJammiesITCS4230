@@ -38,7 +38,7 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"platformPlaceholder",
     "path":"sprites/platformPlaceholder/platformPlaceholder.yy",

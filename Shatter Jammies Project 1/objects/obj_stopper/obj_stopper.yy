@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite14",
-    "path":"sprites/Sprite14/Sprite14.yy",
+    "name":"blockerPlaceholder",
+    "path":"sprites/blockerPlaceholder/blockerPlaceholder.yy",
   },
   "spriteMaskId":null,
   "visible":false,

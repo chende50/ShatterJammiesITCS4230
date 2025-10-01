@@ -1,4 +1,4 @@
-hspeed = 2
+hspeed = 4
 
 if hitpoints <= 0
 {

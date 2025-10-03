@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tileSet",
-    "path":"sprites/spr_tileSet/spr_tileSet.yy",
+    "name":"spr_tiles_blank",
+    "path":"sprites/spr_tiles_blank/spr_tiles_blank.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -32,7 +32,7 @@
   "tilehsep":0,
   "tilevsep":0,
   "tileWidth":1024,
-  "tilexoff":0,
-  "tileyoff":0,
+  "tilexoff":15,
+  "tileyoff":15,
   "tile_count":4,
 }

@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"tlst_cave",
-  "out_columns":0,
+  "out_columns":2,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -17,7 +17,10 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_tileSet",
+    "path":"sprites/spr_tileSet/spr_tileSet.yy",
+  },
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
@@ -25,11 +28,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":16,
+  "tileHeight":1024,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":16,
+  "tileWidth":1024,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":0,
+  "tile_count":4,
 }

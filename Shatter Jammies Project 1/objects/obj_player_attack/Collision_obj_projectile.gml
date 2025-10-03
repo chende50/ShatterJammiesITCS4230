@@ -1,1 +1,0 @@
-other.hspeed *= -1

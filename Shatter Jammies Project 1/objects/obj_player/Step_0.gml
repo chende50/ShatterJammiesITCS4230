@@ -53,6 +53,15 @@ if i_frames > 0
 	i_frames--
 }
 
+if hspeed == 0
+{
+	sprite_index = spr_player_idle
+}
+else
+{
+	sprite_index = spr_player_walk
+}
+
 //if health <= 0
 //{
 //	room_restart()

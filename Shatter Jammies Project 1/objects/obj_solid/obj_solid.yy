@@ -32,5 +32,5 @@
     "path":"sprites/solidPlaceholder/solidPlaceholder.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

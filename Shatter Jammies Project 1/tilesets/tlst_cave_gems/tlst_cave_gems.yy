@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tlst_cave",
+  "%Name":"tlst_cave_gems",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tlst_cave",
+  "name":"tlst_cave_gems",
   "out_columns":2,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tiles_blank",
-    "path":"sprites/spr_tiles_blank/spr_tiles_blank.yy",
+    "name":"spr_tiles_gems",
+    "path":"sprites/spr_tiles_gems/spr_tiles_gems.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -28,11 +28,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":1024,
+  "tileHeight":995,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":1024,
-  "tilexoff":15,
-  "tileyoff":15,
-  "tile_count":4,
+  "tileWidth":990,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":6,
 }

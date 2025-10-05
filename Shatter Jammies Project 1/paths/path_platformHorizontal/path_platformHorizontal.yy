@@ -1,9 +1,9 @@
 {
   "$GMPath":"",
-  "%Name":"path_roomOnePlatform",
+  "%Name":"path_platformHorizontal",
   "closed":true,
   "kind":0,
-  "name":"path_roomOnePlatform",
+  "name":"path_platformHorizontal",
   "parent":{
     "name":"Paths",
     "path":"folders/Paths.yy",

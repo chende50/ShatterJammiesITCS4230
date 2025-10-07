@@ -1,18 +1,18 @@
-if (keyboard_check(vk_left) and !instance_place(x-move_speed, y, obj_solid)) 
+if state != States.attacking
 {
-	x += -move_speed
-	image_xscale = -1
-}
+	if keyboard_check(vk_left) 
+	{
+		state = States.walking
+		hspeed = -move_speed
+	}
 
-if (keyboard_check(vk_right)) 
-{
-	x += move_speed
-	image_xscale = 1
-}
+	if keyboard_check(vk_right)
+	{
+		state = States.walking
+		hspeed = move_speed
+	}
 
-if (keyboard_check(vk_up))
-{
-	if (instance_place(x, y+1, obj_solid))
+	if keyboard_check(vk_up) and instance_place(x, y+1, obj_solid)
 	{
 		vspeed = jump_height
 	}
@@ -20,8 +20,6 @@ if (keyboard_check(vk_up))
 
 if (instance_place(x, y+1, obj_solid)) 
 {
-	sprite_index = spr_player_walk
-	image_speed = 1
 	gravity = 0
 } 
 else 
@@ -29,40 +27,7 @@ else
 	gravity = .5	
 }
 
-if vspeed != 0 and !instance_place(x, y+1, obj_solid)
+if vspeed != 0
 {
-	sprite_index = spr_player_jump
-	image_speed = 0
-	image_index = 0
-	if vspeed < -3
-	{
-		image_index = 1
-	}
-	else if vspeed > 3
-	{
-		image_index = 3
-	}
-	else
-	{
-		image_index = 2
-	}
+	state = States.jumping
 }
-
-if i_frames > 0
-{
-	i_frames--
-}
-
-if hspeed == 0
-{
-	sprite_index = spr_player_idle
-}
-else
-{
-	sprite_index = spr_player_walk
-}
-
-//if health <= 0
-//{
-//	room_restart()
-//}

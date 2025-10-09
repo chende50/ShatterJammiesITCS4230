@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"crystalPlaceholder",
-    "path":"sprites/crystalPlaceholder/crystalPlaceholder.yy",
+    "name":"spr_crystal_shard",
+    "path":"sprites/spr_crystal_shard/spr_crystal_shard.yy",
   },
   "spriteMaskId":null,
   "visible":true,

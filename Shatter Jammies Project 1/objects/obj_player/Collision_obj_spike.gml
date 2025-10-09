@@ -1,2 +1,1 @@
-health --
-room_restart()
+health = 0

@@ -1,36 +1,26 @@
-image_xscale = sign(hspeed)
-
-if state = States.walking
+if health <= 0
 {
-	sprite_index = spr_player_walk
-	image_speed = 1
+	room_restart()
 }
 
-if state = States.jumping
+if vspeed == 0 and hspeed == 0 and instance_place(x, y+1, obj_solid)
 {
-	sprite_index = spr_player_jump
-	image_speed = 0
-	image_index = 0
-	if vspeed < -3
-	{
-		image_index = 1
-	}
-	else if vspeed > 3
-	{
-		image_index = 3
-	}
-	else
-	{
-		image_index = 2
-	}
+	state = States.idle
+}
+else if vspeed != 0 and !instance_place(x, y+1, obj_solid)
+{
+	state = States.jumping
+}
+else if vspeed == 0 and hspeed != 0 and instance_place(x, y+1, obj_solid)
+{
+	state = States.walking
 }
 
-if state = States.walking
+if !instance_place(x, y+1, obj_solid)
 {
-	sprite_index = spr_player_idle
+	gravity = .5
 }
-
-//if health <= 0
-//{
-//	room_restart()
-//}
+else
+{
+	gravity = 0
+}

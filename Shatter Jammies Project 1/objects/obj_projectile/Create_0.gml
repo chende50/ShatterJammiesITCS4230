@@ -1,1 +1,1 @@
-hspeed = -30
+hspeed = 30 * image_xscale

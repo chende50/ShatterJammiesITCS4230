@@ -1,4 +1,5 @@
-draw_text(64, 32, "Score: " + string(score))
-draw_text(64, 64, "Health: " + string(health))
-
-draw_text(64, 96, "vspeed: " + string(obj_player.vspeed))
+for (var i = 0; i < health; i++)
+{
+	draw_sprite(spr_heart, 0, 32 + (64 * i), 32)
+}
+draw_text(64, 64, "Score: " + string(score))

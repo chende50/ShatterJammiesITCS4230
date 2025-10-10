@@ -1,1 +1,3 @@
-health = 0
+health--
+i_frames = 60
+room_restart()

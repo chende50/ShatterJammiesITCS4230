@@ -5,6 +5,4 @@ enum States {
 	attacking
 }
 
-health = 3
-gravity_direction = 270
 state = States.idle

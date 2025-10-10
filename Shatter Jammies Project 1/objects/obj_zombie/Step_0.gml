@@ -3,16 +3,16 @@ if hitpoints <= 0
 	instance_destroy()
 }
 
-if distance_to_object(obj_player) <= attack_range and !on_cooldown
+if distance_to_object(obj_player) <= range and!on_cooldown
 {
-	if hspeed > 0
-	{
-		instance_create_layer(x + 1, y, "Instances", obj_projectile)
-	}
-	else if hspeed < 0
-	{
-		instance_create_layer(x - 1, y, "Instances", obj_projectile)
-	}
+	i_frames += 1
+	
+	sprite_index = spr_zombie_attack
+	image_speed = 1
+	hspeed = 0
+	
+	var projectile = instance_create_layer(x * sign(hspeed), y, "Instances", obj_projectile)
+	projectile.image_xscale = image_xscale
 	on_cooldown = true
 	alarm[0] = attack_cooldown
 }

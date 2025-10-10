@@ -3,7 +3,7 @@ if i_frames > 0
 	i_frames--
 }
 
-image_xscale = sign(hspeed)
+if(hspeed != 0) image_xscale = sign(hspeed)
 
 switch state
 {

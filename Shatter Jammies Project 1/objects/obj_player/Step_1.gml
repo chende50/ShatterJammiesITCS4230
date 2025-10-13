@@ -30,7 +30,7 @@ switch state
 		else
 		{
 			image_index = 2
-		}
+		} 
 	break
 	
 	case States.walking:

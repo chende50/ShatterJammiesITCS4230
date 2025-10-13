@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_instructions",
+  "%Name":"obj_howToPlayButton",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_instructions",
+  "name":"obj_howToPlayButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_howToPlay",
+    "path":"sprites/spr_howToPlay/spr_howToPlay.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

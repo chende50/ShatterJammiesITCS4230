@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button",
+  "%Name":"obj_creditButton",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button",
+  "name":"obj_creditButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",
@@ -25,13 +25,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_creditsButton",
+    "path":"sprites/spr_creditsButton/spr_creditsButton.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

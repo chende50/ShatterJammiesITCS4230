@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_title",
-  "eventList":[],
+  "%Name":"obj_backToStartButton",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_title",
+  "name":"obj_backToStartButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_titlePlaceholder",
-    "path":"sprites/spr_titlePlaceholder/spr_titlePlaceholder.yy",
+    "name":"spr_backToStart",
+    "path":"sprites/spr_backToStart/spr_backToStart.yy",
   },
   "spriteMaskId":null,
   "visible":true,

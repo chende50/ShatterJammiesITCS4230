@@ -19,5 +19,10 @@ else
 	gravity = 0
 }
 
+if instance_place(x + hspeed, y, obj_solid)
+{
+	hspeed = 0
+}
+
 vspeed = min(vspeed, 12)
 //move_and_collide(hspeed, vspeed, obj_solid)

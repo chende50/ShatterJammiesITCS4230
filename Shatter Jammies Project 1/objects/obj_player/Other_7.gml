@@ -1,4 +1,18 @@
-if state == States.attacking
+
+	if !instance_place(x, y+1, obj_solid)
+	{
+		state = States.jumping
+	}
+	else if input_axis == 0
+	{
+		state = States.idle
+	}
+	else if input_axis != 0
+	{
+		state = States.walking
+	}
+
+/*if state == States.attacking
 {
 	if vspeed != 0 and !instance_place(x, y+1, obj_solid)
 	{
@@ -12,4 +26,4 @@ if state == States.attacking
 	{
 		state = States.walking
 	}
-}
+}*/

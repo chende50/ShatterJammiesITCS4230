@@ -3,7 +3,7 @@ if i_frames > 0
 	i_frames--
 }
 
-if(hspeed != 0) image_xscale = sign(hspeed)
+/*if(hspeed != 0) image_xscale = sign(hspeed)*/
 
 switch state
 {
@@ -19,7 +19,7 @@ switch state
 	case States.jumping:
 		sprite_index = spr_player_jump
 		image_speed = 0
-		if vspeed <= -3
+		/*if vspeed <= -3
 		{
 			image_index = 1
 		}
@@ -30,7 +30,7 @@ switch state
 		else
 		{
 			image_index = 2
-		} 
+		} */
 	break
 	
 	case States.walking:

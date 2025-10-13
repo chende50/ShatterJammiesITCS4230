@@ -6,3 +6,5 @@ enum States {
 }
 
 state = States.idle
+grav = 7
+input_axis = 0

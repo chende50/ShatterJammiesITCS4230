@@ -6,4 +6,8 @@ if sprite_index == spr_zombie_attack
 		hspeed = move_speed
 		image_speed = 1
 	}
+	else
+	{
+		image_speed = 0
+	}
 }

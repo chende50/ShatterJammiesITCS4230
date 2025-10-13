@@ -20,3 +20,4 @@ else
 }
 
 vspeed = min(vspeed, 12)
+//move_and_collide(hspeed, vspeed, obj_solid)

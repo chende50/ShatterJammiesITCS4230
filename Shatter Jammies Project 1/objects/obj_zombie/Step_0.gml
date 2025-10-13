@@ -3,7 +3,7 @@ if hitpoints <= 0
 	instance_destroy()
 }
 
-if distance_to_object(obj_player) <= range and!on_cooldown
+if distance_to_object(obj_player) <= range and !on_cooldown
 {
 	i_frames += 1
 	
@@ -11,7 +11,7 @@ if distance_to_object(obj_player) <= range and!on_cooldown
 	image_speed = 1
 	hspeed = 0
 	
-	var projectile = instance_create_layer(x * sign(hspeed), y, "Instances", obj_projectile)
+	var projectile = instance_create_layer(x - 1, y, "Instances", obj_projectile)
 	projectile.image_xscale = image_xscale
 	on_cooldown = true
 	alarm[0] = attack_cooldown

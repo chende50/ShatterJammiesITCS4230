@@ -1,3 +1,4 @@
+
 input_axis = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 
 if !instance_place(x, y+1, obj_solid)

@@ -1,0 +1,5 @@
+draw_self()
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+draw_set_font(f_larger)
+draw_text(960, 515, "A and D to move\n" + "W to jump\n" + "E to attack")

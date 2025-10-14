@@ -40,10 +40,10 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"platformPlaceholder",
-    "path":"sprites/platformPlaceholder/platformPlaceholder.yy",
+    "name":"spr_platform_top",
+    "path":"sprites/spr_platform_top/spr_platform_top.yy",
   },
   "spriteMaskId":null,
   "visible":true,

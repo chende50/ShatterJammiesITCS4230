@@ -2,7 +2,7 @@ if state == States.attacking
 {
 	other.hitpoints --
 }
-else
+else if i_frames <= 0
 {
 	health--
 	i_frames = 60

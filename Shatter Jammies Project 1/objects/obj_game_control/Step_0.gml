@@ -1,5 +1,5 @@
-if health <= 0
+if global.gameover
 {
-	room_restart()
-	health = 3
+	room_goto(rm_loseScreen)
+	global.gameover = false
 }

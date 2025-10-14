@@ -1,1 +1,1 @@
-room_goto(rm_startScreen)
+game_restart()

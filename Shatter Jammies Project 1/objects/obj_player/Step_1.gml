@@ -1,3 +1,8 @@
+if health <= 0
+{
+	instance_destroy()
+}
+
 if i_frames > 0
 {
 	i_frames--

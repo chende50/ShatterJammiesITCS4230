@@ -4,16 +4,15 @@ if keyboard_check(ord("0"))
 }
 if keyboard_check(ord("1"))
 {
-	room_goto(1)
+	room_goto(rm_levelOne)
 }
 if keyboard_check(ord("2"))
 {
-	room_goto(2)
+	room_goto(rm_levelTwo)
 }
-
 if keyboard_check(ord("3"))
 {
-	room_goto(3)
+	room_goto(rm_levelThree)
 }
 
 if keyboard_check(ord("H"))

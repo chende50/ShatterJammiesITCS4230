@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_zombie_walk",
-  "bboxMode":0,
-  "bbox_bottom":496,
+  "bboxMode":2,
+  "bbox_bottom":488,
   "bbox_left":62,
-  "bbox_right":410,
+  "bbox_right":377,
   "bbox_top":117,
   "collisionKind":1,
   "collisionTolerance":0,

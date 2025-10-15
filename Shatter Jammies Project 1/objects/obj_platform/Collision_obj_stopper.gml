@@ -1,1 +1,4 @@
-dir *= -1
+if !other.for_zombie
+{
+	dir *= -1
+}

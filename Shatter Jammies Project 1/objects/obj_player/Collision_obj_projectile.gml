@@ -1,6 +1,7 @@
-if state = States.attacking
+if state = States.attacking and !other.deflected
 {
-	other.hspeed *= -1
+	other.image_xscale *= -1
+	other.deflected = true
 	exit
 }
 

@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shard",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_platform_bottom",
+  "eventList":[],
   "managed":true,
-  "name":"obj_shard",
+  "name":"obj_platform_bottom",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_crystal_shard",
-    "path":"sprites/spr_crystal_shard/spr_crystal_shard.yy",
+    "name":"spr_platform_bottom",
+    "path":"sprites/spr_platform_bottom/spr_platform_bottom.yy",
   },
   "spriteMaskId":null,
   "visible":true,

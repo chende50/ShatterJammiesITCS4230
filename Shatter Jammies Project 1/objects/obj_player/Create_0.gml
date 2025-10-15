@@ -7,3 +7,8 @@ enum States {
 
 state = States.idle
 input_axis = 0
+
+if room == rm_levelThree
+{
+	dbl_jump = true
+}

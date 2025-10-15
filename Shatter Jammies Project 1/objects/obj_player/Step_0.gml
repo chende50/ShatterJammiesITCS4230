@@ -1,4 +1,3 @@
-
 input_axis = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 
 if !instance_place(x, y+1, obj_solid)
@@ -9,7 +8,10 @@ else
 {
 	gravity = 0
 	vspeed = 0
-	dbl_jump = true
+	if room == rm_levelThree
+	{
+		dbl_jump = true
+	}
 }
 
 if state != States.attacking

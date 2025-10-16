@@ -4,8 +4,7 @@ if state = States.attacking and !other.deflected
 	other.deflected = true
 	exit
 }
-
-if i_frames <=0 
+else if i_frames <= 0 
 {
 	health --
 	i_frames = 60

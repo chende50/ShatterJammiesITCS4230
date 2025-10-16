@@ -1,3 +1,12 @@
+if place_meeting(x, y, obj_platform_bottom)
+{
+	spd = 0
+}
+else
+{
+	spd = 10
+}
+
 var move = spd * dir
 
 if moving

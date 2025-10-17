@@ -29,10 +29,6 @@ if keyboard_check(ord("G"))
 {
 	game_restart()
 }
-if keyboard_check(ord("L"))
-{
-	room_goto(rm_loseScreen)	
-}
 if keyboard_check(ord("M"))
 {
 	health = 0

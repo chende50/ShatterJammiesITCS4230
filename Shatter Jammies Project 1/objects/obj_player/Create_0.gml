@@ -16,3 +16,5 @@ else
 {
 	dbl_jump = false
 }
+
+audio_play_sound(snd_next_room, 1, false)

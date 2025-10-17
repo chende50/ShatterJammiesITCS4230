@@ -2,4 +2,5 @@ if other.state = States.attacking and i_frames <= 0
 {
 	hp--
 	i_frames = 60
+	audio_play_sound(snd_rubble, 1, false)
 }

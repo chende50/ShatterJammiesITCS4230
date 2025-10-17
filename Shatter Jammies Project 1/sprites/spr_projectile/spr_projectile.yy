@@ -1,9 +1,9 @@
 {
   "$GMSprite":"",
   "%Name":"spr_projectile",
-  "bboxMode":0,
-  "bbox_bottom":151,
-  "bbox_left":14,
+  "bboxMode":2,
+  "bbox_bottom":152,
+  "bbox_left":53,
   "bbox_right":219,
   "bbox_top":96,
   "collisionKind":1,

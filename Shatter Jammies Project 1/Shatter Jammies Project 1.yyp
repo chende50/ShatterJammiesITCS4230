@@ -51,6 +51,7 @@
   "resources":[
     {"id":{"name":"f_larger","path":"fonts/f_larger/f_larger.yy",},},
     {"id":{"name":"obj_backToStartButton","path":"objects/obj_backToStartButton/obj_backToStartButton.yy",},},
+    {"id":{"name":"obj_banner","path":"objects/obj_banner/obj_banner.yy",},},
     {"id":{"name":"obj_beetle_dead","path":"objects/obj_beetle_dead/obj_beetle_dead.yy",},},
     {"id":{"name":"obj_beetle","path":"objects/obj_beetle/obj_beetle.yy",},},
     {"id":{"name":"obj_creditButton","path":"objects/obj_creditButton/obj_creditButton.yy",},},
@@ -101,6 +102,7 @@
     {"id":{"name":"spr_beetle_death","path":"sprites/spr_beetle_death/spr_beetle_death.yy",},},
     {"id":{"name":"spr_beetle_fly","path":"sprites/spr_beetle_fly/spr_beetle_fly.yy",},},
     {"id":{"name":"spr_blackBox","path":"sprites/spr_blackBox/spr_blackBox.yy",},},
+    {"id":{"name":"spr_blank_button","path":"sprites/spr_blank_button/spr_blank_button.yy",},},
     {"id":{"name":"spr_blankStartScreen","path":"sprites/spr_blankStartScreen/spr_blankStartScreen.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_creditsButton","path":"sprites/spr_creditsButton/spr_creditsButton.yy",},},

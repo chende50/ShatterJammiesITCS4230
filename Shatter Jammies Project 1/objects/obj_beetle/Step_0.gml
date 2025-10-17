@@ -19,4 +19,11 @@ else
 	behavior = Behaviors.wait
 }
 
-image_xscale = sign(hspeed)
+if hspeed != 0
+{
+	image_xscale = -1 * sign(hspeed)
+}
+else
+{
+	image_xscale = 1
+}
